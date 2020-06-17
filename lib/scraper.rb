@@ -6,5 +6,6 @@ doc = Nokogiri::HTML(html)
 
 
 
-p doc.css(".inlineMobileLeft-2Yo002.imageTextBlockGrid3-2XAK6G")
+p doc.css(".inlineMobileLeft-2Yo002.imageTextBlockGrid3-2XAK6G")[0]
+
 
